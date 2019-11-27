@@ -13,8 +13,9 @@ li{
 	text-align: right;
 	color:#48484D;
 	padding: 4px;
-	background-color:#fff;
+	background-color:rgb(255, 255, 255);
 	box-shadow: inset -1px -1px 4px 1px #eee;
+	border-radius: 20px;
 }
 
 #calculadora{
@@ -22,7 +23,8 @@ li{
 	height: 200px;
 	margin:0 auto;
 	padding:2px;
-	background-color: #65D277;
+	background-color: rgb(255, 0, 0);
+	border-radius: 30px;
 }
 
 .key {
@@ -36,13 +38,14 @@ li{
 	height:30px;
 	border-radius:3px;
 	color:#fff;
-	background-color:#6C73FA;
+	background-color:rgb(0, 0, 0);
 	cursor:pointer;
 	float:left;
 	margin: 0px -3px 5px 8px;
 	line-height: 30px;
 	text-align: center;
 	box-shadow: 0px 3px 1px 0px #444651;
+	border-radius: 20px;
 }
 .key li:hover{
 	background-color: #BEF9F0;
