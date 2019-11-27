@@ -37,6 +37,7 @@ var division = document.getElementById("division");
 var multiplication = document.getElementById("multiplication");
 var substraction = document.getElementById("subtraction");
 var reset = document.getElementById("reset");
+var equal = document.getElementById("equal")
 // Función que calcula el resultado
 
 function currentResult(){
@@ -57,8 +58,6 @@ function currentResult(){
           case "/":
             res = parseInt(numberOne) / parseInt(numberTwo);
             break;
-            case "c":
-              res = 0;
   }
 
   result.innerText = res;
@@ -96,32 +95,21 @@ nine.addEventListener("click", function(){
 zero.addEventListener("click", function(){
   result.textContent = result.textContent + "0"
 })
-reset.addEventListener("click", function(){
-  result.textContent = result.textContent + "0";
-})
-
-
-
-
+//operaciones
 addition.addEventListener("click", function(){
   numberOne = result.textContent;
   operation = "+";
   result.textContent = "";
 })
-
 subtraction.addEventListener("click", function(){
   numberOne = result.textContent;
   operation = "-";
   result.textContent = "";
 })
-
-
 equal.addEventListener("click", function(){
   numberTwo = result.textContent;
   currentResult();
 })
-
-
 multiplication.addEventListener("click", function(){
   numberOne = result.textContent;
   operation = "*"
