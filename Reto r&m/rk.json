@@ -1,0 +1,94 @@
+{
+    "personas":
+    {    
+        {
+            "id":"1",
+            "name": "Rick Sanchez",
+            "status": "Alive",
+            "species": "Human",
+            "gender": "Male",
+            "episode": 31
+        }
+        {
+            "id":"2",
+            "name": "Morty Smith",
+            "status":"Alive",
+            "species": "Human",
+            "gender": "Male",
+            "episode": 31
+        }
+        {
+            "id":"3",
+            "name": "Summer Smith",
+            "status":"Alive",
+            "species": "Human",
+            "gender": "Female",
+            "episode": 31
+        }
+        {
+            "id":"4",
+            "name": "Beth Smith",
+            "status":"Alive",
+            "species": "Human",
+            "gender": "Female",
+            "episode": 31
+        }
+        {
+            "id":"5",
+            "name": "Jerry Smith",
+            "status":"Alive",
+            "species": "Human",
+            "gender": "Male",
+            "episode": 31   
+        }
+        {
+            "id":6,
+            "name": "Abadango Cluster Princess",
+            "status":"Alive",
+            "species": "Alien",
+            "gender": "Female",
+            "episode": 1
+        }
+        {
+            "id":7,
+            "name": "Abradolf Lincler",
+            "status":"unknown",
+            "species": "Human",
+            "gender": "Male",
+            "episode": 2
+        }
+        {
+            "id":8,
+            "name": "Adjudicator Rick",
+            "status":"Dead",
+            "species": "Human",
+            "gender": "Male",
+            "episode": 1
+        }
+        {
+            "id":9,
+            "name": "Agency Director",
+            "status":"Dead",
+            "species": "Human",
+            "gender": "Male",
+            "episode": 1
+        }
+        {
+            "id":10,
+            "name": "Beth Smith",
+            "status":"Alive",
+            "species": "Human",
+            "gender": "Female",
+            "episode": 31
+        }
+        {
+            "id":"4",
+            "name": "Beth Smith",
+            "status":"Alive",
+            "species": "Human",
+            "gender": "Female",
+            "episode": 31
+        }
+
+    }    
+}

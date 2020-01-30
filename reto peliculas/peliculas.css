@@ -1,0 +1,8 @@
+.películas{
+    display: flex;
+    flex-direction: column ;
+    padding: 30px;
+    margin: 10px;
+    background-color: red;
+    margin-right: 510px;
+}
